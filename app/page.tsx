@@ -4,7 +4,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-[#dce3ee] bg-white/95 backdrop-blur-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-12">
           <img
-            src="/logo.PNG"
+            src="/logo.jpg"
             alt="Privatpraxis Aceval"
             className="h-36 w-auto object-contain"
           />
