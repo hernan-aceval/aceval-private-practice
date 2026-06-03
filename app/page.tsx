@@ -1,65 +1,330 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen bg-[#F3F4F7] text-[#2D3A66]">
+      <header className="sticky top-0 z-50 border-b border-[#dce3ee] bg-white/95 backdrop-blur-sm">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-12">
+          <img
+            src="/logo.PNG"
+            alt="Privatpraxis Aceval"
+            className="h-36 w-auto object-contain"
+          />
+
+          <nav className="hidden items-center gap-7 text-lg font-medium text-[#5163A0] md:flex">
+            <a href="#">Home</a>
+<a href="#schwerpunkte"
+  className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
+>Schwerpunkte</a>
+<a href="#vorsorge"
+  className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
+>Vorsorge</a>
+<a href="#abnehmen"
+  className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
+>Abnehmen</a>
+<a href="#arthrose"
+  className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
+>Arthrose</a>
+<a href="#maennergesundheit"
+  className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
+>Männergesundheit</a>
+<a href="#kontakt"
+  className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
+>Kontakt</a>
+          </nav>
+        </div>
+      </header>
+
+      <section
+        id="praxis"
+        className="mx-auto flex min-h-[68vh] max-w-7xl items-center px-6 py-12 md:px-12"
+      >
+        <div className="grid items-center gap-10 md:grid-cols-2">
+          <div>
+            <p className="mb-4 text-xs font-medium uppercase tracking-[0.3em] text-[#5163A0]">
+              Privatpraxis für moderne Allgemeinmedizin
+            </p>
+
+            <h1 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em] text-[#2D3A66] md:text-3xl">
+              Moderne Privatmedizin mit persönlicher ärztlicher Begleitung.
+            </h1>
+
+            <p className="mt-10 max-w-xl text-base leading-8 text-[#66708A] md:text-lg">
+              Prävention, Ernährungsmedizin, Sportmedizin und Longevity
+              Medicine — individuell, strukturiert und ärztlich verantwortet.
+            </p>
+
+            <p className="mt-4 text-xs uppercase tracking-[0.2em] text-[#5163A0]">
+              Für Privatpatienten und Selbstzahler
+            </p>
+
+           <div className="mt-14 flex flex-col gap-3 sm:flex-row">
+  <a
+    href="#ueber-mich"
+    className="rounded-full border border-[#5163A0]/30 bg-white px-7 py-3.5 text-center text-sm font-semibold text-[#5163A0] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#5163A0] hover:bg-[#F3F4F7]"
+  >
+    Über mich
+  </a>
+
+  <a
+    href="#telemedizin"
+    className="rounded-full border border-[#5163A0]/30 bg-white px-7 py-3.5 text-center text-sm font-semibold text-[#5163A0] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#5163A0] hover:bg-[#F3F4F7]"
+  >
+    Telemedizin entdecken
+  </a>
+
+  <a
+    href="#kontakt"
+    className="rounded-full bg-[#5163A0] px-7 py-3.5 text-center text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2D3A66] hover:shadow-[0_10px_25px_rgba(81,99,160,0.25)]"
+  >
+    Termin anfragen
+  </a>
+</div>
+          </div>
+
+          <div className="relative flex justify-center">
+            <div className="inline-block overflow-hidden rounded-[2rem] border border-[#DCE3EE] bg-white p-2 shadow-[0_20px_60px_rgba(36,52,77,0.08)]">
+              <img
+                src="/hernan-main.jpg"
+                alt="Dr. Hernan Aceval"
+                className="h-auto max-h-[500px] w-auto rounded-[1.6rem] object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="schwerpunkte"
+        className="border-t border-[#DCE3EE] bg-white px-6 py-20 md:px-12"
+      >
+        <div className="mx-auto max-w-6xl">
+          <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-[#5163A0]">
+            Schwerpunkte
+          </p>
+
+          <h2 className="max-w-2xl text-2xl font-light leading-[1.3] tracking-[-0.01em] text-[#2D3A66] md:text-3xl">
+            Medizinische Schwerpunkte unserer Praxis.
+          </h2>
+
+          <p className="mt-6 max-w-4xl text-base leading-8 text-[#66708A] md:text-lg">
+            Unsere Schwerpunkte liegen auf Check-up & Prävention,
+            Ernährungsmedizin, Sportmedizin mit Arthrose-Sprechstunden sowie
+            Langlebigkeitsmedizin (Longevity Medicine).
+          </p>
+
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            {[
+              {
+  title: "Check-up & Prävention",
+  id: "vorsorge",
+                short:
+                  "Früherkennung und Prävention sind die Grundlage langfristiger Gesundheit.",
+                text:
+                  "Gesundheit ist individuell – genauso wie Vorsorge. Je nach Alter, Geschlecht, familiärer Vorbelastung, beruflicher Situation und Lebensstil entstehen unterschiedliche gesundheitliche Risiken. Im Rahmen unserer Check-up- und Präventionsmedizin analysieren wir mögliche Risikofaktoren frühzeitig und erstellen ein individuell abgestimmtes Vorsorgekonzept. Dazu gehören moderne Diagnostik, gezielte Laboruntersuchungen sowie Empfehlungen zu Ernährung, Bewegung und Lebensstil.",
+                more:
+                  "Die Präventionsmedizin in unserer Praxis geht bewusst über klassische Kassenleistungen hinaus. Eine besondere Rolle spielen dabei die ausführliche familiäre Anamnese und – wenn medizinisch sinnvoll – auch genetische Analysen. Gleichzeitig ermöglicht eine präzise und individuelle Anamnese, gezielt die Untersuchungen auszuwählen, die wirklich sinnvoll sind, ohne Patienten unnötig finanziell zu belasten. Meine Philosophie ist klar: Hochwertige und moderne Medizin sollte für Menschen zugänglich und bezahlbar bleiben – auch im Bereich der Selbstzahlerleistungen. Für weiterführende Untersuchungen arbeite ich mit einem erfahrenen Netzwerk spezialisierter Fachärzte und diagnostischer Einrichtungen zusammen, um eine umfassende medizinische Betreuung zu gewährleisten.",
+              },
+              {
+  title: "Ernährungsmedizin & Gewichtsreduktion",
+  id: "abnehmen",
+                short:
+                  "Nachhaltige Gewichtsreduktion bedeutet mehr als nur weniger Kalorien.",
+                text:
+                  "Wir begleiten Sie individuell und medizinisch fundiert bei Ernährungsumstellung, Stoffwechseloptimierung und langfristiger Gewichtskontrolle – mit einem ganzheitlichen Konzept aus Ernährung, Bewegung und modernen Fastentechniken. Ein besonderer Schwerpunkt unserer Praxis ist die sichere und sinnvolle Anwendung moderner Medikamente zur Gewichtsreduktion (die sog. „Abnehmspritze“).",
+                more:
+                  "Viele Patienten haben Fragen oder Unsicherheiten zur Behandlung – ich berate Sie ausführlich, verschreibe die Therapie individuell und begleite Sie engmaschig während der gesamten Anwendung, um den bestmöglichen und nachhaltigen Effekt zu erzielen. Die Betreuung erfolgt persönlich, individuell abgestimmt und kann – sofern medizinisch sinnvoll – auch telemedizinisch durchgeführt werden.",
+              },
+              {
+  title: "Sportmedizin & Arthrose-Sprechstunde",
+  id: "arthrose",
+                short:
+                  "Bewegung erhalten, Schmerzen reduzieren, Lebensqualität verbessern.",
+                text:
+                  "Bewegung ist ein wichtiger Bestandteil eines gesunden und aktiven Lebens – unabhängig von Alter oder Leistungsniveau. Ich begleite Leistungs- und Freizeitsportler ebenso wie Menschen, die ihre Beweglichkeit, Belastbarkeit und Lebensqualität im Alltag oder im höheren Alter erhalten möchten.",
+                more:
+                  "Ein besonderer Schwerpunkt meiner Praxis ist die Diagnostik und Behandlung von Beschwerden des Bewegungsapparates sowie der Arthrose – insbesondere der Gonarthrose, einer der häufigsten und lebensqualitätseinschränkenden Gelenkerkrankungen. Ziel ist eine frühzeitige Diagnostik und möglichst lange gelenkerhaltende konservative bzw. interventionelle Therapie, um eine Gelenkprothese möglichst hinauszuzögern oder zu vermeiden. Ein wichtiger Bestandteil dieses Therapiekonzepts ist dabei die moderne Arthrosamid®-Behandlung bei Kniearthrose. Für mehr Informationen klicken Sie hier: Arthrosamid-Infiltration.",
+              },
+              {
+  title: "Männergesundheit",
+  id: "maennergesundheit",
+                short:
+                  "Gesundheit, Leistungsfähigkeit und Wohlbefinden in jeder Lebensphase.",
+                text:
+                  "Männlichkeit und Virilität sind für viele Männer wichtige Bestandteile von Lebensqualität, Leistungsfähigkeit und Wohlbefinden. Sie prägen nicht nur die sexuelle Gesundheit, sondern auch Selbstvertrauen, Ausstrahlung, Energie und die Art, wie Männer sich selbst erleben.",
+                more:
+                  "Im Rahmen meiner Männersprechstunde begleite ich Männer in allen Lebensphasen bei den gesundheitlichen Herausforderungen des Mannseins. Dazu gehören unter anderem Testosteronmangel, Erektionsstörungen, nachlassende Libido, Prostatabeschwerden, Haarausfall sowie Fragen rund um gesundes Altern und Longevity. Als Arzt, Diplom-Psychologe und Sportler verbinde ich medizinische, hormonelle und psychologische Aspekte der Männergesundheit zu einem ganzheitlichen Konzept. Vertrauen, Diskretion und eine individuelle Betreuung bilden dabei die Grundlage meiner Arbeit.",
+              },
+              {
+                title: "Longevity",
+                short:
+                  "Gesund älter werden bedeutet mehr als nur Krankheit zu vermeiden.",
+                text:
+                  "Es ist nie zu früh – und nie zu spät –, sich mit Longevity zu beschäftigen. Für mich bedeutet Longevity einen ganzheitlichen medizinischen Ansatz mit dem Ziel, nicht nur die Lebensspanne zu verlängern, sondern vor allem die Zeit körperlicher und geistiger Gesundheit („Healthspan“) möglichst lange zu erhalten.",
+                more:
+                  "Der Begriff „Longevity“ wird heute oft von Coaches, Medfluencern und selbsternannten Experten geprägt, die komplexe medizinische Themen ohne ausreichende Expertise vereinfachen oder falsch darstellen – eine Entwicklung, die ich gerade im Gesundheitsbereich für problematisch halte. Mein Ansatz grenzt sich davon bewusst ab: evidenzbasiert, medizinisch fundiert und auf seriöse Diagnostik statt auf Trends, Marketing oder Internet-Hypes aufgebaut.",
+              },
+              {
+                title: "Telemedizin",
+                id: "telemedizin",
+                short:
+                  "Moderne medizinische Begleitung — auch zwischen den Praxisbesuchen.",
+                text:
+                  "Viele Anliegen lassen sich heute effizient, diskret und persönlich telemedizinisch begleiten: Befundbesprechungen, Verlaufskontrollen, Ernährungsmedizin, GLP-1-Therapie (die Abnehmspritze), Männergesundheit, präventivmedizinische Beratung und sportmedizinische Betreuung.",
+                more: (
+  <ul className="mt-2 list-disc space-y-3 pl-5">
+    <li>
+      <strong>Bequem und flexibel:</strong> Wahrnehmung von Arztterminen bequem von zu Hause oder von unterwegs.
+    </li>
+
+    <li>
+      <strong>Keine Wartezeiten:</strong> Effizientere Abläufe und optimiertes Zeitmanagement.
+    </li>
+
+    <li>
+      <strong>Maximaler Komfort:</strong> Wegfall von Anfahrtswegen und Parkplatzsuche.
+    </li>
+
+    <li>
+      <strong>Infektionsschutz:</strong> Kein Kontakt zu anderen Patienten im Wartezimmer.
+    </li>
+
+    <li>
+      <strong>Mitbetreuung:</strong> Einfache Einbindung von Angehörigen in das Arztgespräch.
+    </li>
+  </ul>
+),
+              },
+            ].map((item) => (
+              <details
+                id={item.id}
+                key={item.title}
+                className="group scroll-mt-48 rounded-[1.5rem] border border-[#DCE3EE] bg-[#F3F4F7] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#b8d2e8] hover:bg-white hover:shadow-[0_12px_40px_rgba(36,52,77,0.08)]"
+              >
+                <summary className="cursor-pointer list-none">
+                  <h3 className="text-xl font-semibold text-[#2D3A66]">
+                    {item.title}
+                  </h3>
+
+                  <p className="mt-4 text-sm font-medium leading-7 text-[#5163A0]">
+                    {item.short}
+                  </p>
+
+                  <p className="mt-4 text-sm leading-7 text-[#66708A]">
+                    {item.text}
+                  </p>
+
+                  <p className="mt-5 text-sm font-semibold text-[#5163A0]">
+  <span className="group-open:hidden">mehr</span>
+  <span className="hidden group-open:inline">weniger</span>
+</p>
+                </summary>
+
+                 <div className="mt-6 border-t border-[#DCE3EE] pt-5 text-sm leading-7 text-[#66708A]">
+  {item.more}
+</div>
+</details>
+))}
+</div>
+
+          <p className="mt-10 max-w-4xl text-base leading-8 text-[#66708A] md:text-lg">
+            Darüber hinaus bieten wir eine umfassende allgemeinmedizinische
+            Betreuung bei akuten und chronischen Erkrankungen sowie eine
+            psychosomatische Grundversorgung – stets mit dem Ziel, Ihre
+            Gesundheit langfristig zu erhalten und Ihr Wohlbefinden nachhaltig zu
+            fördern.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+      </section>
+      <section
+  id="ueber-mich"
+  className="scroll-mt-28 border-t border-[#DCE3EE] bg-white px-6 py-24 md:px-12"
+>
+  <div className="mx-auto max-w-6xl">
+    <div className="grid items-start gap-12 md:grid-cols-[380px_1fr]">
+
+      <div className="-mt-12">
+  <img
+    src="/ueber-mich.jpg"
+    alt="Dr. Hernán Aceval als Notarzt"
+    className="mt-28 max-w-[380px] rounded-[1.6rem] object-cover"
+  />
+
+</div>
+
+      <div>
+        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#5163A0]">
+          Über mich
+        </p>
+
+        <h2 className="max-w-2xl text-2xl font-light leading-[1.3] tracking-[-0.01em] text-[#2D3A66] md:text-3xl">
+          Medizin mit Erfahrung und persönlicher Begleitung.
+        </h2>
+
+        <p className="mt-6 text-base leading-8 text-[#66708A]">
+          Ich bin Hernán Leonardo Aceval Munoz, Facharzt für Allgemeinmedizin und Notarzt und Flugarzt. Diplom-Psychologe.
+          Nach vielen Jahren in der chirurgischen Krankenhausmedizin sowie als Notarzt und Flugarzt widme ich mich heute der 
+          ambulanten Allgemeinmedizin. Die Erfahrungen aus Klinik, Notfallmedizin und internationalen Einsätzen prägen meinen 
+          Blick auf den Menschen und die Medizin bis heute. Hinter jeder Diagnose steht für mich ein Mensch mit seiner eigenen 
+          Geschichte, seinen Sorgen, Erwartungen und Zielen.
+          Meine Schwerpunkte liegen in den Bereichen Ernährungsmedizin, Sportmedizin, Männergesundheit und Longevity. 
+          Als Arzt und Diplom-Psychologe verfolge ich einen ganzheitlichen Ansatz, der körperliche und psychische Gesundheit 
+          gleichermaßen berücksichtigt.
+        </p>
+        <p className="mt-6 text-base leading-8 text-[#66708A]">
+          Die Entscheidung zur Gründung einer Privatpraxis habe ich bewusst getroffen. Sie ermöglicht mir die notwendige Unabhängigkeit, um Diagnostik, 
+          Therapie und Prävention ausschließlich an den Bedürfnissen meiner Patienten auszurichten. Ohne starre Vorgaben und ohne Zeitdruck kann ich 
+          mir die Zeit nehmen, die eine sorgfältige und moderne Medizin benötigt.
+          Ich behandle Privatpatienten ebenso wie gesetzlich Versicherte auf Selbstzahlerbasis. Dabei ist mir wichtig, dass der Zugang zu einer individuellen 
+          medizinischen Betreuung nicht allein vom Versicherungsstatus oder von finanziellen Überlegungen abhängt. 
+          Deshalb suche ich gemeinsam mit meinen Patienten nach sinnvollen und fairen Lösungen, die sowohl medizinisch als auch persönlich tragbar sind.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section className="px-6 py-12 md:px-12">
+  <div className="mx-auto max-w-6xl rounded-[1.5rem] border border-[#DCE3EE] bg-white p-8">
+
+    <h3 className="text-sm font-semibold uppercase tracking-[0.3em] text-[#5163A0]">
+      Mitgliedschaften
+    </h3>
+
+    <p className="mt-4 text-base leading-8 text-[#66708A]">
+      Deutsche Gesellschaft für Allgemeinmedizin (DEGAM), Sportärztebund Nordrhein, Deutsche Gesellschaft für Ernährungsmedizin e.V. 
+
+      (DGEM), Deutsche Gesellschaft für Mann und Gesundheit e.V. (DGMG), Deutsche Gesellschaft für Geriatrie e.V. (DGG), 
+
+      Deutsche Gesellschaft für Katastrophenmedizin e.V. (DGKM), Deutsche Interdisziplinäre Vereinigung für Intensiv- und Notfallmedizin (DIVI), 
+
+      Deutsche Gesellschaft für Notfallmedizin e.V (DGINA), Berufsverband der Deutschen Chirurgie e.V. (BDC)
+    </p>
+
+  </div>
+</section>
+      <section id="kontakt" className="px-6 py-16 md:px-12">
+        <div className="mx-auto max-w-xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
+          <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
+            Kontakt
+          </p>
+
+          <h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
+            Termin oder telemedizinische Beratung anfragen.
+          </h2>
+
+          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
+            Die digitale Terminbuchung und Patientenkommunikation werden später
+            direkt integriert. Zunächst entsteht hier ein hochwertiger
+            Anfragebereich für Privatpatienten und Selbstzahler.
+          </p>
+
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:info@aceval.com"
+            className="mt-10 inline-block rounded-full bg-white px-8 py-4 text-sm font-semibold text-[#5163A0] transition hover:bg-[#eef6fb]"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+            Anfrage per E-Mail senden
           </a>
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
