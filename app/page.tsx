@@ -130,9 +130,16 @@ export default function Home() {
                   "Nachhaltige Gewichtsreduktion bedeutet mehr als nur weniger Kalorien.",
                 text:
                   "Wir begleiten Sie individuell und medizinisch fundiert bei Ernährungsumstellung, Stoffwechseloptimierung und langfristiger Gewichtskontrolle – mit einem ganzheitlichen Konzept aus Ernährung, Bewegung und modernen Fastentechniken. Ein besonderer Schwerpunkt unserer Praxis ist die sichere und sinnvolle Anwendung moderner Medikamente zur Gewichtsreduktion (die sog. „Abnehmspritze“).",
-                more:
-                  "Viele Patienten haben Fragen oder Unsicherheiten zur Behandlung – ich berate Sie ausführlich, verschreibe die Therapie individuell und begleite Sie engmaschig während der gesamten Anwendung, um den bestmöglichen und nachhaltigen Effekt zu erzielen. Die Betreuung erfolgt persönlich, individuell abgestimmt und kann – sofern medizinisch sinnvoll – auch telemedizinisch durchgeführt werden.",
-              },
+               more: (
+  <> Viele Patienten haben Fragen oder Unsicherheiten zur Behandlung – ich berate Sie ausführlich, verschreibe die Therapie individuell und begleite Sie engmaschig während der gesamten Anwendung, um den bestmöglichen und nachhaltigen Effekt zu erzielen. Die Betreuung erfolgt persönlich, individuell abgestimmt und kann – sofern medizinisch sinnvoll – auch telemedizinisch durchgeführt werden.
+ <img
+      src="/essen.jpg"
+      alt="Mediterrane Ernährung"
+      className="mt-6 w-full max-w-md rounded-xl border border-[#DCE3EE]"
+    />
+  </>
+), 
+},
               {
   title: "Sportmedizin & Arthrose-Sprechstunde",
   id: "arthrose",
@@ -140,28 +147,55 @@ export default function Home() {
                   "Bewegung erhalten, Schmerzen reduzieren, Lebensqualität verbessern.",
                 text:
                   "Bewegung ist ein wichtiger Bestandteil eines gesunden und aktiven Lebens – unabhängig von Alter oder Leistungsniveau. Ich begleite Leistungs- und Freizeitsportler ebenso wie Menschen, die ihre Beweglichkeit, Belastbarkeit und Lebensqualität im Alltag oder im höheren Alter erhalten möchten.",
-                more:
-                  "Ein besonderer Schwerpunkt meiner Praxis ist die Diagnostik und Behandlung von Beschwerden des Bewegungsapparates sowie der Arthrose – insbesondere der Gonarthrose, einer der häufigsten und lebensqualitätseinschränkenden Gelenkerkrankungen. Ziel ist eine frühzeitige Diagnostik und möglichst lange gelenkerhaltende konservative bzw. interventionelle Therapie, um eine Gelenkprothese möglichst hinauszuzögern oder zu vermeiden. Ein wichtiger Bestandteil dieses Therapiekonzepts ist dabei die moderne Arthrosamid®-Behandlung bei Kniearthrose. Für mehr Informationen klicken Sie hier: Arthrosamid-Infiltration.",
-              },
-              {
+                more: (
+  <>
+    Ein besonderer Schwerpunkt meiner Praxis ist die Diagnostik und Behandlung von Beschwerden des Bewegungsapparates sowie der Arthrose – insbesondere der Gonarthrose. Ein wichtiger Bestandteil dieses Therapiekonzeptes ist dabei die moderne{" "}
+    <a
+      href="https://arthrosamid.com/de/our-solution"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold text-[#5163A0] underline"
+    >
+      Arthrosamid
+    </a>
+    -Behandlung bei Kniearthrose.
+  </>
+),
+},
+{
   title: "Männergesundheit",
   id: "maennergesundheit",
                 short:
                   "Gesundheit, Leistungsfähigkeit und Wohlbefinden in jeder Lebensphase.",
                 text:
                   "Männlichkeit und Virilität sind für viele Männer wichtige Bestandteile von Lebensqualität, Leistungsfähigkeit und Wohlbefinden. Sie prägen nicht nur die sexuelle Gesundheit, sondern auch Selbstvertrauen, Ausstrahlung, Energie und die Art, wie Männer sich selbst erleben.",
-                more:
+                more: (
+  <>
                   "Im Rahmen meiner Männersprechstunde begleite ich Männer in allen Lebensphasen bei den gesundheitlichen Herausforderungen des Mannseins. Dazu gehören unter anderem Testosteronmangel, Erektionsstörungen, nachlassende Libido, Prostatabeschwerden, Haarausfall sowie Fragen rund um gesundes Altern und Longevity. Als Arzt, Diplom-Psychologe und Sportler verbinde ich medizinische, hormonelle und psychologische Aspekte der Männergesundheit zu einem ganzheitlichen Konzept. Vertrauen, Diskretion und eine individuelle Betreuung bilden dabei die Grundlage meiner Arbeit.",
-              },
+             <img
+      src="/rugby.jpg"
+      alt="Männergesundheit"
+      className="mt-6 w-96 rounded-xl border border-[#DCE3EE]"
+    />
+  </>
+),
+                },
               {
                 title: "Longevity",
                 short:
                   "Gesund älter werden bedeutet mehr als nur Krankheit zu vermeiden.",
                 text:
                   "Es ist nie zu früh – und nie zu spät –, sich mit Longevity zu beschäftigen. Für mich bedeutet Longevity einen ganzheitlichen medizinischen Ansatz mit dem Ziel, nicht nur die Lebensspanne zu verlängern, sondern vor allem die Zeit körperlicher und geistiger Gesundheit („Healthspan“) möglichst lange zu erhalten.",
-                more:
+                more:(
+  <>
                   "Der Begriff „Longevity“ wird heute oft von Coaches, Medfluencern und selbsternannten Experten geprägt, die komplexe medizinische Themen ohne ausreichende Expertise vereinfachen oder falsch darstellen – eine Entwicklung, die ich gerade im Gesundheitsbereich für problematisch halte. Mein Ansatz grenzt sich davon bewusst ab: evidenzbasiert, medizinisch fundiert und auf seriöse Diagnostik statt auf Trends, Marketing oder Internet-Hypes aufgebaut.",
-              },
+             <img
+      src="/aging.jpg"
+      alt="Longevity"
+      className="mt-6 w-96 rounded-xl border border-[#DCE3EE]"
+    />
+  </>
+), },
               {
                 title: "Telemedizin",
                 id: "telemedizin",
@@ -220,6 +254,25 @@ export default function Home() {
 
                  <div className="mt-6 border-t border-[#DCE3EE] pt-5 text-sm leading-7 text-[#66708A]">
   {item.more}
+
+  {item.id === "arthrose" && (
+    <div className="mt-6">
+      <img
+        src="/knie.jpg"
+        alt="Kniegelenk"
+        className="mb-4 w-60 rounded-xl border border-[#DCE3EE]"
+      />
+
+      <a
+        href="https://arthrosamid.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex rounded-full bg-[#5163A0] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#40518A]"
+      >
+        Erfahren Sie mehr über Arthrosamid
+      </a>
+    </div>
+  )}
 </div>
 </details>
 ))}
@@ -260,14 +313,13 @@ export default function Home() {
         </h2>
 
         <p className="mt-6 text-base leading-8 text-[#66708A]">
-          Ich bin Hernán Leonardo Aceval Munoz, Facharzt für Allgemeinmedizin und Notarzt und Flugarzt. Diplom-Psychologe.
-          Nach vielen Jahren in der chirurgischen Krankenhausmedizin sowie als Notarzt und Flugarzt widme ich mich heute der 
-          ambulanten Allgemeinmedizin. Die Erfahrungen aus Klinik, Notfallmedizin und internationalen Einsätzen prägen meinen 
-          Blick auf den Menschen und die Medizin bis heute. Hinter jeder Diagnose steht für mich ein Mensch mit seiner eigenen 
-          Geschichte, seinen Sorgen, Erwartungen und Zielen.
-          Meine Schwerpunkte liegen in den Bereichen Ernährungsmedizin, Sportmedizin, Männergesundheit und Longevity. 
-          Als Arzt und Diplom-Psychologe verfolge ich einen ganzheitlichen Ansatz, der körperliche und psychische Gesundheit 
-          gleichermaßen berücksichtigt.
+          Hernán Leonardo Aceval Munoz, Studium der Humanmedizin und Psychologie an der Universität Bonn. Facharzt für Allgemeinmedizin, Notarzt, Flugarzt und Diplom-Psychologe.
+          </p>
+          <p className="mt-6 text-base leading-8 text-[#66708A]">
+          Nach vielen Jahren in der stationären chirurgischen Versorgung bin ich heute überwiegend in der ambulanten Allgemeinmedizin tätig. Parallel dazu arbeite ich weiterhin als 
+          Notarzt und Flugarzt im nationalen und internationalen Patiententransport und Versorgung, auch in Krisenregionen.
+          Besonders interessieren mich die Bereiche Ernährungsmedizin, Sportmedizin, Männergesundheit und Longevity. Als Arzt und Diplom-Psychologe betrachte ich dabei körperliche 
+          und psychische Gesundheit als untrennbar miteinander verbunden. Eine individuelle und persönliche Betreuung auf Augenhöhe steht für mich im Mittelpunkt jeder ärztlichen Behandlung.
         </p>
         <p className="mt-6 text-base leading-8 text-[#66708A]">
           Die Entscheidung zur Gründung einer Privatpraxis habe ich bewusst getroffen. Sie ermöglicht mir die notwendige Unabhängigkeit, um Diagnostik, 
@@ -318,7 +370,7 @@ export default function Home() {
           </p>
 
           <a
-            href="mailto:info@aceval.com"
+            href="mailto:info-praxis@aceval.com"
             className="mt-10 inline-block rounded-full bg-white px-8 py-4 text-sm font-semibold text-[#5163A0] transition hover:bg-[#eef6fb]"
           >
             Anfrage per E-Mail senden
