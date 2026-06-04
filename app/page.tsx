@@ -6,7 +6,7 @@ export default function Home() {
           <img
             src="/logo.jpg"
             alt="Privatpraxis Aceval"
-            className="h-36 w-auto object-contain"
+            className="h-24 w-auto object-contain md:h-36"
           />
 
           <nav className="hidden items-center gap-7 text-lg font-medium text-[#5163A0] md:flex">
@@ -30,7 +30,23 @@ export default function Home() {
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
 >Kontakt</a>
           </nav>
-        </div>
+       <details className="relative ml-auto md:hidden">
+  <summary className="cursor-pointer list-none text-3xl font-semibold text-[#5163A0]">
+    ☰
+  </summary>
+
+  <div className="absolute right-0 top-10 z-50 w-64 rounded-2xl border border-[#DCE3EE] bg-white p-4 shadow-xl">
+    <a className="block py-2 text-[#5163A0]" href="#">Home</a>
+    <a className="block py-2 text-[#5163A0]" href="#schwerpunkte">Schwerpunkte</a>
+    <a className="block py-2 text-[#5163A0]" href="#vorsorge">Vorsorge</a>
+    <a className="block py-2 text-[#5163A0]" href="#abnehmen">Abnehmen</a>
+    <a className="block py-2 text-[#5163A0]" href="#arthrose">Arthrose</a>
+    <a className="block py-2 text-[#5163A0]" href="#maennergesundheit">Männergesundheit</a>
+    <a className="block py-2 text-[#5163A0]" href="#ueber-mich">Über mich</a>
+    <a className="block py-2 text-[#5163A0]" href="#kontakt">Kontakt</a>
+  </div>
+</details>
+ </div>
       </header>
 
       <section
