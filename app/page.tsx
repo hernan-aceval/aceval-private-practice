@@ -14,9 +14,6 @@ export default function Home() {
 <a href="#schwerpunkte"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
 >Schwerpunkte</a>
-<a href="#vorsorge"
-  className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
->Vorsorge</a>
 <a href="#abnehmen"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
 >Abnehmen</a>
@@ -29,6 +26,9 @@ export default function Home() {
 <a href="#kontakt"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
 >Kontakt</a>
+<a href="/impressum"
+  className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
+>Impressum</a>
           </nav>
        <details className="relative ml-auto md:hidden">
   <summary className="cursor-pointer list-none text-3xl font-semibold text-[#5163A0]">
@@ -38,12 +38,12 @@ export default function Home() {
   <div className="absolute right-0 top-10 z-50 w-64 rounded-2xl border border-[#DCE3EE] bg-white p-4 shadow-xl">
     <a className="block py-2 text-[#5163A0]" href="#">Home</a>
     <a className="block py-2 text-[#5163A0]" href="#schwerpunkte">Schwerpunkte</a>
-    <a className="block py-2 text-[#5163A0]" href="#vorsorge">Vorsorge</a>
     <a className="block py-2 text-[#5163A0]" href="#abnehmen">Abnehmen</a>
     <a className="block py-2 text-[#5163A0]" href="#arthrose">Arthrose</a>
     <a className="block py-2 text-[#5163A0]" href="#maennergesundheit">Männergesundheit</a>
     <a className="block py-2 text-[#5163A0]" href="#ueber-mich">Über mich</a>
     <a className="block py-2 text-[#5163A0]" href="#kontakt">Kontakt</a>
+     <a className="block py-2 text-[#5163A0]" href="/impressum">Impressum</a>
   </div>
 </details>
  </div>
@@ -370,7 +370,7 @@ export default function Home() {
   </div>
 </section>
       <section id="kontakt" className="px-6 py-16 md:px-12">
-        <div className="mx-auto max-w-xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
+        <div className="mx-auto max-w-2xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
           <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
             Kontakt
           </p>
@@ -380,13 +380,19 @@ export default function Home() {
           </h2>
 
           <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-            Die digitale Terminbuchung und Patientenkommunikation werden später
-            direkt integriert. Zunächst entsteht hier ein hochwertiger
-            Anfragebereich für Privatpatienten und Selbstzahler.
+            Die Online-Terminbuchung wird in Kürze verfügbar sein. Bis dahin können Sie gerne eine Terminanfrage per E-Mail senden.
+            </p>
+            <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
+              Präsenztermine sind derzeit mittwochs in den Räumlichkeiten der Praxis für Allgemeinmedizin O. Brenig in Bonn-Bad Godesberg möglich, 
+              insbesondere für Erstgespräche, Untersuchungen, Diagnostik und Laboruntersuchungen. Weitere Präsenztermine in Remagen werden in Kürze angeboten.
           </p>
-
+          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
+            Bitte beachten Sie, dass Terminvereinbarungen für meine Privatpraxis ausschließlich über die hier angegebenen Kontaktmöglichkeiten erfolgen. Die Praxis 
+            O. Brenig ist eine eigenständige hausärztliche Praxis und kann keine Terminvereinbarungen oder Auskünfte zu meiner Sprechstunde übernehmen.
+            Ihre Anfrage wird zeitnah persönlich beantwortet.
+          </p>
           <a
-            href="mailto:info-praxis@aceval.com"
+            href="mailto:termin-praxis@aceval.com"
             className="mt-10 inline-block rounded-full bg-white px-8 py-4 text-sm font-semibold text-[#5163A0] transition hover:bg-[#eef6fb]"
           >
             Anfrage per E-Mail senden
