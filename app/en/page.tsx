@@ -49,7 +49,6 @@ export default function Home() {
   <summary className="cursor-pointer list-none text-3xl font-semibold text-[#5163A0]">
     ☰
   </summary>
-
   <div className="absolute right-0 top-10 z-50 w-64 rounded-2xl border border-[#DCE3EE] bg-white p-4 shadow-xl">
     <a className="block py-2 text-[#5163A0]" href="#">Home</a>
     <a className="block py-2 text-[#5163A0]" href="#schwerpunkte">Schwerpunkte</a>
