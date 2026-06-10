@@ -179,7 +179,7 @@ export default function Home() {
                 short:
                   "La reducción de peso sostenible significa mucho más que simplemente consumir menos calorías.",
                 text:
-                  "Te acompaño de forma individualizada y basada en criterios médicos en el proceso de cambio de hábitos alimentarios, optimización metabólica y control del peso a largo plazo, mediante un enfoque integral que combina nutrición, actividad física y técnicas modernas de ayuno. Uno de los principales ámbitos de especialización de nuestra consulta es la utilización segura y adecuada de los medicamentos modernos para la reducción de peso (la denominada «inyección para adelgazar»).",
+                  "Te acompaño de forma individualizada y basada en criterios médicos en el proceso de cambio de hábitos alimentarios, optimización metabólica y control del peso a largo plazo, mediante un enfoque integral que combina nutrición, actividad física y técnicas modernas de ayuno. Uno de los principales ámbitos de especialización de nuestra consulta es la utilización segura y adecuada de los medicamentos modernos para la reducción de peso como Ozempic® o Wegovy® (la denominada «inyección para adelgazar»).",
                more: (
   <> Muchos pacientes tienen preguntas o dudas sobre este tipo de tratamiento. Por ello, le ofrezco un asesoramiento exhaustivo, prescribo la terapia de forma individualizada y realizo un seguimiento estrecho durante todo el tratamiento con el fin de lograr los mejores resultados posibles de forma segura y sostenible. La atención se adapta a las necesidades de cada paciente y puede realizarse de manera presencial o, cuando esté médicamente indicado, también mediante telemedicina.
  <img

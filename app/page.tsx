@@ -179,7 +179,7 @@ export default function Home() {
                 short:
                   "Nachhaltige Gewichtsreduktion bedeutet mehr als nur weniger Kalorien.",
                 text:
-                  "Wir begleiten Sie individuell und medizinisch fundiert bei Ernährungsumstellung, Stoffwechseloptimierung und langfristiger Gewichtskontrolle – mit einem ganzheitlichen Konzept aus Ernährung, Bewegung und modernen Fastentechniken. Ein besonderer Schwerpunkt unserer Praxis ist die sichere und sinnvolle Anwendung moderner Medikamente zur Gewichtsreduktion (die sog. „Abnehmspritze“).",
+                  "Wir begleiten Sie individuell und medizinisch fundiert bei Ernährungsumstellung, Stoffwechseloptimierung und langfristiger Gewichtskontrolle – mit einem ganzheitlichen Konzept aus Ernährung, Bewegung und modernen Fastentechniken. Ein besonderer Schwerpunkt unserer Praxis ist die sichere und sinnvolle Anwendung moderner Medikamente zur Gewichtsreduktion wie Ozempic® oder Wegovy® (die sog. „Abnehmspritze“).",
                more: (
   <> Viele Patienten haben Fragen oder Unsicherheiten zur Behandlung – ich berate Sie ausführlich, verschreibe die Therapie individuell und begleite Sie engmaschig während der gesamten Anwendung, um den bestmöglichen und nachhaltigen Effekt zu erzielen. Die Betreuung erfolgt persönlich, individuell abgestimmt und kann – sofern medizinisch sinnvoll – auch telemedizinisch durchgeführt werden.
  <img
