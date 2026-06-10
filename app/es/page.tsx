@@ -3,29 +3,28 @@ export default function Home() {
     <main className="min-h-screen bg-[#F3F4F7] text-[#2D3A66]">
       <header className="sticky top-0 z-50 border-b border-[#dce3ee] bg-white/95 backdrop-blur-sm">
           <div className="mx-auto max-w-7xl px-6 py-4 md:px-12">
-    <div className="mb-3 hidden justify-end md:flex">
+    <div className="mb-0 hidden justify-end md:flex">
       <div className="flex items-center gap-2">
         <a href="/">
-          <img src="/de.jpg" alt="Deutsch" className="h-6 w-auto hover:opacity-80 transition" />
+          <img src="/de.jpg" alt="Deutsch" className="h-4 w-auto hover:opacity-80 transition" />
         </a>
         <a href="/es">
-          <img src="/es.jpg" alt="Español" className="h-6 w-auto hover:opacity-80 transition" />
+          <img src="/es.jpg" alt="Español" className="h-4 w-auto hover:opacity-80 transition" />
         </a>
         <a href="/en">
-          <img src="/en.jpg" alt="English" className="h-6 w-auto hover:opacity-80 transition" />
+          <img src="/en.jpg" alt="English" className="h-4 w-auto hover:opacity-80 transition" />
         </a>
       </div>
     </div>
-
-    <div className="flex items-center justify-between"></div>
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-12">
-          <img
-            src="/logo.jpg"
-            alt="Privatpraxis Aceval"
-            className="h-24 w-auto object-contain md:h-36"
-          />
-
-          <nav className="hidden flex-1 items-center justify-end gap-7 whitespace-nowrap text-lg font-medium text-[#5163A0] md:flex">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 pt-1 pb-1 md:px-12">
+          <div className="-ml-12">
+  <img
+    src="/logo.jpg"
+    alt="Privatpraxis Aceval"
+    className="h-24 w-auto object-contain md:h-36"
+  />
+</div>
+          <nav className="hidden items-center gap-5 text-lg font-medium text-[#5163A0] md:flex">
             <a href="#">Inicio</a>
 <a href="#schwerpunkte"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
@@ -113,7 +112,7 @@ export default function Home() {
 </div>
           </div>
 
-          <div className="relative flex justify-center">
+           <div className="relative flex justify-center">
             <div className="inline-block overflow-hidden rounded-[2rem] border border-[#DCE3EE] bg-white p-2 shadow-[0_20px_60px_rgba(36,52,77,0.08)]">
               <img
                 src="/hernan-main.jpg"
@@ -126,9 +125,9 @@ export default function Home() {
       </section>
 
       <section
-        id="schwerpunkte"
-        className="border-t border-[#DCE3EE] bg-white px-6 py-20 md:px-12"
-      >
+  id="schwerpunkte"
+  className="scroll-mt-24 border-t border-[#DCE3EE] bg-white px-6 py-20 md:px-12"
+>
         <div className="mx-auto max-w-6xl">
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-[#5163A0]">
             Especialización
@@ -388,16 +387,14 @@ export default function Home() {
 
   </div>
 </section>
-      <section id="kontakt" className="px-6 py-16 md:px-12">
+     <section id="kontakt" className="scroll-mt-28 px-6 pt-6 pb-16 md:px-12">
         <div className="mx-auto max-w-2xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
           <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
             CONTACTO
           </p>
-
           <h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
             Solicita una cita o una consulta de telemedicina.
           </h2>
-
           <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
             La reserva de citas online estará disponible próximamente. Hasta entonces, puede enviar su solicitud de cita por correo electrónico.
             </p>
@@ -406,13 +403,10 @@ export default function Home() {
               especialmente para primeras consultas, exploraciones médicas, procedimientos diagnósticos y análisis de laboratorio. 
               Próximamente también se ofrecerán consultas presenciales en la ciudad de Remagen, Alemania y en el futuro no muy lejano, también 
               en la ciudad de Gijón, Asturias, España.
-          </p>
-          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
             Tenga en cuenta que las citas para mi consulta privada se gestionan exclusivamente a través de los medios de contacto indicados en esta página. 
             La consulta del Dr. O. Brenig es una consulta médica independiente y no puede gestionar citas ni proporcionar información relacionada 
             con mi actividad asistencial.
-          </p>
-          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">Su solicitud será atendida personalmente a la mayor brevedad posible.
+         Su solicitud será atendida personalmente a la mayor brevedad posible.
           </p>
           <a
             href="mailto:termin-praxis@aceval.com"
