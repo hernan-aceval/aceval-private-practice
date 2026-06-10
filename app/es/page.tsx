@@ -1,4 +1,11 @@
+"use client";
 export default function Home() {
+    function closeMobileMenu(event: React.MouseEvent<HTMLAnchorElement>) {
+    const details = event.currentTarget.closest("details");
+    if (details) {
+      details.removeAttribute("open");
+    }
+  }
   return (
     <main className="min-h-screen bg-[#F3F4F7] text-[#2D3A66]">
       <header className="sticky top-0 z-50 border-b border-[#dce3ee] bg-white/95 backdrop-blur-sm">
@@ -51,14 +58,25 @@ export default function Home() {
   </summary>
 
   <div className="absolute right-0 top-10 z-50 w-64 rounded-2xl border border-[#DCE3EE] bg-white p-4 shadow-xl">
-    <a className="block py-2 text-[#5163A0]" href="#">Inicio</a>
-    <a className="block py-2 text-[#5163A0]" href="#schwerpunkte">Especialización</a>
-    <a className="block py-2 text-[#5163A0]" href="#abnehmen">Nutrición</a>
-    <a className="block py-2 text-[#5163A0]" href="#arthrose">Artrosis</a>
-    <a className="block py-2 text-[#5163A0]" href="#maennergesundheit">Männergesundheit</a>
-    <a className="block py-2 text-[#5163A0]" href="#ueber-mich">Sobre mí</a>
-    <a className="block py-2 text-[#5163A0]" href="#kontakt">Contacto</a>
-     <a className="block py-2 text-[#5163A0]" href="/impressum">Aviso legal</a>
+    <div className="mb-3 flex items-center gap-2 border-b border-[#DCE3EE] pb-3">
+  <a onClick={closeMobileMenu} href="/">
+    <img src="/de.jpg" alt="Deutsch" className="h-4 w-auto" />
+  </a>
+  <a onClick={closeMobileMenu} href="/es">
+    <img src="/es.jpg" alt="Español" className="h-4 w-auto" />
+  </a>
+  <a onClick={closeMobileMenu} href="/en">
+    <img src="/en.jpg" alt="English" className="h-4 w-auto" />
+  </a>
+</div>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#">Inicio</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#schwerpunkte">Especialización</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#abnehmen">Nutrición</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#arthrose">Artrosis</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#maennergesundheit">Männergesundheit</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#ueber-mich">Sobre mí</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#kontakt">Contacto</a>
+     <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="/impressum">Aviso legal</a>
   </div>
 </details>
  </div>
