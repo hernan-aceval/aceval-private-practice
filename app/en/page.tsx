@@ -35,22 +35,22 @@ export default function Home() {
             <a href="#">Home</a>
 <a href="#schwerpunkte"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
->Schwerpunkte</a>
+>Specialties</a>
 <a href="#abnehmen"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
->Abnehmen</a>
+>Weight management</a>
 <a href="#arthrose"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
->Arthrose</a>
+>Osteoarthritis</a>
 <a href="#maennergesundheit"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
->Männergesundheit</a>
+>Men's Medicine</a>
 <a href="#kontakt"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
->Kontakt</a>
+>Contact</a>
 <a href="/impressum"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"
->Impressum</a>
+>Legal notice</a>
           </nav>
        <details className="relative ml-auto md:hidden">
   <summary className="cursor-pointer list-none text-3xl font-semibold text-[#5163A0]">
@@ -70,13 +70,13 @@ export default function Home() {
   </a>
 </div>
     <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#">Home</a>
-    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#schwerpunkte">Schwerpunkte</a>
-    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#abnehmen">Abnehmen</a>
-    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#arthrose">Arthrose</a>
-    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#maennergesundheit">Männergesundheit</a>
-    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#ueber-mich">Über mich</a>
-    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#kontakt">Kontakt</a>
-    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="/impressum">Impressum</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#schwerpunkte">Specialties</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#abnehmen">Weight management</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#arthrose">Osteoarthritis</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#maennergesundheit">Men's medicine</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#ueber-mich">About me</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="#kontakt">Contact</a>
+    <a onClick={closeMobileMenu} className="block py-2 text-[#5163A0]" href="/impressum">Legal Notice</a>
   </div>
 </details>
  </div>
@@ -90,20 +90,20 @@ export default function Home() {
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div>
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.3em] text-[#5163A0]">
-              Privatpraxis für moderne Allgemeinmedizin
+              PRIVATE PRACTICE FOR MODERN GENERAL MEDICINE AND PREVENTIVE HEALTH
             </p>
 
             <h1 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em] text-[#2D3A66] md:text-3xl">
-              Moderne Privatmedizin mit persönlicher ärztlicher Begleitung.
+              Modern private healthcare with personalised medical guidance.
             </h1>
 
             <p className="mt-10 max-w-xl text-base leading-8 text-[#66708A] md:text-lg">
-              Prävention, Ernährungsmedizin, Sportmedizin und Longevity
-              Medicine — individuell, strukturiert und ärztlich verantwortet.
+              Prevention, Nutritional Medicine, Sports Medicine, advanced non-surgical treatments for knee osteoarthritis including Arthrosamid®, 
+              and Longevity Medicine — personalised, structured and physician-led.
             </p>
 
             <p className="mt-4 text-xs uppercase tracking-[0.2em] text-[#5163A0]">
-              Für Privatpatienten und Selbstzahler
+              For private patients and self-paying patients
             </p>
 
            <div className="mt-14 flex flex-col gap-3 sm:flex-row">
@@ -111,21 +111,21 @@ export default function Home() {
     href="#ueber-mich"
     className="rounded-full border border-[#5163A0]/30 bg-white px-7 py-3.5 text-center text-sm font-semibold text-[#5163A0] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#5163A0] hover:bg-[#F3F4F7]"
   >
-    Über mich
+    About me
   </a>
 
   <a
     href="#telemedizin"
     className="rounded-full border border-[#5163A0]/30 bg-white px-7 py-3.5 text-center text-sm font-semibold text-[#5163A0] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#5163A0] hover:bg-[#F3F4F7]"
   >
-    Telemedizin entdecken
+    Explore Telemedicine
   </a>
 
   <a
     href="#kontakt"
     className="rounded-full bg-[#5163A0] px-7 py-3.5 text-center text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2D3A66] hover:shadow-[0_10px_25px_rgba(81,99,160,0.25)]"
   >
-    Termin anfragen
+    Request an Appointment
   </a>
 </div>
           </div>
@@ -148,40 +148,49 @@ export default function Home() {
 >
         <div className="mx-auto max-w-6xl">
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-[#5163A0]">
-            Schwerpunkte
+            Specialties
           </p>
 
-          <h2 className="max-w-2xl text-2xl font-light leading-[1.3] tracking-[-0.01em] text-[#2D3A66] md:text-3xl">
-            Medizinische Schwerpunkte unserer Praxis.
+          <h2 className="max-w-2xl text-2xl font-light leading-[1.3] tracking-[-0.01em] text-[#2D3A66] md:text-2xl">
+            Areas of Medical Expertise of our Practice.
           </h2>
 
-          <p className="mt-6 max-w-4xl text-base leading-8 text-[#66708A] md:text-lg">
-            Unsere Schwerpunkte liegen auf Check-up & Prävention,
-            Ernährungsmedizin, Sportmedizin mit Arthrose-Sprechstunden sowie
-            Langlebigkeitsmedizin (Longevity Medicine).
+          <p className="mt-6 max-w-4xl text-base leading-8 text-[#66708A] md:text-base">
+            Our practice focuses on preventive health assessments and check-ups, Nutritional Medicine, 
+            Sports Medicine with a dedicated osteoarthritis clinic, and Longevity Medicine.
           </p>
-
+          <p className="mt-6 max-w-4xl text-base leading-8 text-[#66708A] md:text-base">
+            As part of our osteoarthritis care, particular emphasis is placed on the treatment of knee osteoarthritis, 
+            including the use of {" "}
+    <a
+      href="https://arthrosamid.com/de/our-solution"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold text-[#5163A0] underline"
+    >
+      Arthrosamid®
+    </a>, an injectable hydrogel implant designed to provide long-lasting pain relief without surgery and to help improve mobility and quality of life.</p>
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             {[
               {
-  title: "Check-up & Prävention",
+  title: "Check-ups & Preventive Medicine",
   id: "vorsorge",
                 short:
-                  "Früherkennung und Prävention sind die Grundlage langfristiger Gesundheit.",
+                  "Early detection and prevention are the foundation of long-term health.",
                 text:
-                  "Gesundheit ist individuell – genauso wie Vorsorge. Je nach Alter, Geschlecht, familiärer Vorbelastung, beruflicher Situation und Lebensstil entstehen unterschiedliche gesundheitliche Risiken. Im Rahmen unserer Check-up- und Präventionsmedizin analysieren wir mögliche Risikofaktoren frühzeitig und erstellen ein individuell abgestimmtes Vorsorgekonzept. Dazu gehören moderne Diagnostik, gezielte Laboruntersuchungen sowie Empfehlungen zu Ernährung, Bewegung und Lebensstil.",
+                  "Health is individual – and so is prevention. Age, sex, family history, professional circumstances and lifestyle all influence personal health risks in different ways. As part of our check-up and preventive medicine programme, we identify potential risk factors at an early stage and develop a personalised prevention strategy tailored to your individual needs. This includes modern diagnostic assessments, targeted laboratory testing, and evidence-based recommendations regarding nutrition, physical activity and lifestyle.",
                 more:
-                  "Die Präventionsmedizin in unserer Praxis geht bewusst über klassische Kassenleistungen hinaus. Eine besondere Rolle spielen dabei die ausführliche familiäre Anamnese und – wenn medizinisch sinnvoll – auch genetische Analysen. Gleichzeitig ermöglicht eine präzise und individuelle Anamnese, gezielt die Untersuchungen auszuwählen, die wirklich sinnvoll sind, ohne Patienten unnötig finanziell zu belasten. Meine Philosophie ist klar: Hochwertige und moderne Medizin sollte für Menschen zugänglich und bezahlbar bleiben – auch im Bereich der Selbstzahlerleistungen. Für weiterführende Untersuchungen arbeite ich mit einem erfahrenen Netzwerk spezialisierter Fachärzte und diagnostischer Einrichtungen zusammen, um eine umfassende medizinische Betreuung zu gewährleisten.",
+                  "Our approach to preventive medicine goes beyond standard health assessments. Particular emphasis is placed on a detailed family history and, where medically appropriate, genetic testing. Based on a comprehensive individual assessment, we focus on the examinations that are truly relevant while avoiding unnecessary procedures and costs. For specialised diagnostics, I work closely with an experienced network of medical specialists and diagnostic centres.",
               },
               {
-  title: "Ernährungsmedizin & Gewichtsreduktion",
+  title: "Nutritional Medicine & Weight Management",
   id: "abnehmen",
                 short:
-                  "Nachhaltige Gewichtsreduktion bedeutet mehr als nur weniger Kalorien.",
+                  "Sustainable weight loss is about more than simply reducing calorie intake.",
                 text:
-                  "Wir begleiten Sie individuell und medizinisch fundiert bei Ernährungsumstellung, Stoffwechseloptimierung und langfristiger Gewichtskontrolle – mit einem ganzheitlichen Konzept aus Ernährung, Bewegung und modernen Fastentechniken. Ein besonderer Schwerpunkt unserer Praxis ist die sichere und sinnvolle Anwendung moderner Medikamente zur Gewichtsreduktion wie Ozempic® oder Wegovy® (die sog. „Abnehmspritze“).",
+                  "We provide personalised, evidence-based medical support for dietary change, metabolic health optimisation and long-term weight management through a comprehensive approach that combines nutrition, physical activity and modern fasting strategies. A particular focus of our practice is the safe and appropriate use of modern weight-loss medications such as Ozempic® and Wegovy® (GLP-1 receptor agonists).",
                more: (
-  <> Viele Patienten haben Fragen oder Unsicherheiten zur Behandlung – ich berate Sie ausführlich, verschreibe die Therapie individuell und begleite Sie engmaschig während der gesamten Anwendung, um den bestmöglichen und nachhaltigen Effekt zu erzielen. Die Betreuung erfolgt persönlich, individuell abgestimmt und kann – sofern medizinisch sinnvoll – auch telemedizinisch durchgeführt werden.
+  <>Many patients have questions or concerns about these treatments. I provide detailed medical advice, prescribe therapy on an individual basis and closely monitor progress throughout treatment to help achieve the best possible long-term results. Care is tailored to each patient’s individual needs and, where medically appropriate, can also be provided through telemedicine.
  <img
       src="/essen.jpg"
       alt="Mediterrane Ernährung"
@@ -191,37 +200,37 @@ export default function Home() {
 ), 
 },
               {
-  title: "Sportmedizin & Arthrose-Sprechstunde",
+  title: "Sports Medicine & Osteoarthritis Care",
   id: "arthrose",
                 short:
-                  "Bewegung erhalten, Schmerzen reduzieren, Lebensqualität verbessern.",
+                  "Preserving mobility, reducing pain and improving quality of life.",
                 text:
-                  "Bewegung ist ein wichtiger Bestandteil eines gesunden und aktiven Lebens – unabhängig von Alter oder Leistungsniveau. Ich begleite Leistungs- und Freizeitsportler ebenso wie Menschen, die ihre Beweglichkeit, Belastbarkeit und Lebensqualität im Alltag oder im höheren Alter erhalten möchten.",
+                  "Physical activity is an essential part of a healthy and active life, regardless of age or fitness level. I support both recreational and competitive athletes, as well as individuals who wish to maintain their mobility, physical performance and quality of life throughout adulthood and later life.",
                 more: (
   <>
-    Ein besonderer Schwerpunkt meiner Praxis ist die Diagnostik und Behandlung von Beschwerden des Bewegungsapparates sowie der Arthrose – insbesondere der Gonarthrose. Ein wichtiger Bestandteil dieses Therapiekonzeptes ist dabei die moderne{" "}
+    A particular focus of my practice is the diagnosis and treatment of musculoskeletal conditions and osteoarthritis, especially knee osteoarthritis. An important component of this treatment approach is{" "}
     <a
       href="https://arthrosamid.com/de/our-solution"
       target="_blank"
       rel="noopener noreferrer"
       className="font-semibold text-[#5163A0] underline"
     >
-      Arthrosamid
+      Arthrosamid® 
     </a>
-    -Behandlung bei Kniearthrose.
+    , an innovative non-surgical treatment option for knee osteoarthritis. Supported by more than two decades of research, Arthrosamid® has been shown to be safe and effective, providing long-lasting pain relief and helping patients maintain mobility and daily function.
   </>
 ),
 },
 {
-  title: "Männergesundheit",
+  title: "Men's Medicine",
   id: "maennergesundheit",
                 short:
-                  "Gesundheit, Leistungsfähigkeit und Wohlbefinden in jeder Lebensphase.",
+                  "Health, vitality and well-being at every stage of life.",
                 text:
-                  "Männlichkeit und Virilität sind für viele Männer wichtige Bestandteile von Lebensqualität, Leistungsfähigkeit und Wohlbefinden. Sie prägen nicht nur die sexuelle Gesundheit, sondern auch Selbstvertrauen, Ausstrahlung, Energie und die Art, wie Männer sich selbst erleben.",
+                  "Physical health, vitality and sexual well-being are important aspects of quality of life for many men. They influence not only sexual health, but also confidence, energy levels, performance and overall well-being.",
                 more: (
   <>
-                  "Im Rahmen meiner Männersprechstunde begleite ich Männer in allen Lebensphasen bei den gesundheitlichen Herausforderungen des Mannseins. Dazu gehören unter anderem Testosteronmangel, Erektionsstörungen, nachlassende Libido, Prostatabeschwerden, Haarausfall sowie Fragen rund um gesundes Altern und Longevity. Als Arzt, Diplom-Psychologe und Sportler verbinde ich medizinische, hormonelle und psychologische Aspekte der Männergesundheit zu einem ganzheitlichen Konzept. Vertrauen, Diskretion und eine individuelle Betreuung bilden dabei die Grundlage meiner Arbeit.",
+                  As part of my men's health consultations, I support men through the health challenges that may arise at different stages of life. These include testosterone deficiency, erectile dysfunction, reduced libido, prostate-related concerns, hair loss, and questions related to healthy ageing and longevity. As a physician, psychologist and lifelong sports enthusiast, I integrate medical, hormonal and psychological aspects of men's health into a comprehensive and personalised approach. Trust, discretion and individualised care form the foundation of my work.
              <img
       src="/rugby.jpg"
       alt="Männergesundheit"
@@ -231,14 +240,14 @@ export default function Home() {
 ),
                 },
               {
-                title: "Longevity",
+                title: "Longevity Medicine",
                 short:
-                  "Gesund älter werden bedeutet mehr als nur Krankheit zu vermeiden.",
+                  "Healthy ageing is about more than simply avoiding disease.",
                 text:
-                  "Es ist nie zu früh – und nie zu spät –, sich mit Longevity zu beschäftigen. Für mich bedeutet Longevity einen ganzheitlichen medizinischen Ansatz mit dem Ziel, nicht nur die Lebensspanne zu verlängern, sondern vor allem die Zeit körperlicher und geistiger Gesundheit („Healthspan“) möglichst lange zu erhalten.",
+                  "It is never too early – and never too late – to focus on longevity. For me, Longevity Medicine represents a comprehensive medical approach aimed not only at extending lifespan, but above all at preserving physical and cognitive health for as long as possible.",
                 more:(
   <>
-                  "Der Begriff „Longevity“ wird heute oft von Coaches, Medfluencern und selbsternannten Experten geprägt, die komplexe medizinische Themen ohne ausreichende Expertise vereinfachen oder falsch darstellen – eine Entwicklung, die ich gerade im Gesundheitsbereich für problematisch halte. Mein Ansatz grenzt sich davon bewusst ab: evidenzbasiert, medizinisch fundiert und auf seriöse Diagnostik statt auf Trends, Marketing oder Internet-Hypes aufgebaut.",
+                  Today, the field of longevity is increasingly influenced by coaches, social media personalities and self-proclaimed experts who often oversimplify or misrepresent complex medical topics. I believe this trend is particularly problematic in healthcare. My approach is deliberately different: evidence-based, medically grounded and built on sound diagnostics rather than trends, marketing claims or internet hype.
              <img
       src="/aging.jpg"
       alt="Longevity"
@@ -247,32 +256,32 @@ export default function Home() {
   </>
 ), },
               {
-                title: "Telemedizin",
+                title: "Telemedicine",
                 id: "telemedizin",
                 short:
-                  "Moderne medizinische Begleitung — auch zwischen den Praxisbesuchen.",
+                  "Modern medical care — even between practice visits.",
                 text:
-                  "Viele Anliegen lassen sich heute effizient, diskret und persönlich telemedizinisch begleiten: Befundbesprechungen, Verlaufskontrollen, Ernährungsmedizin, GLP-1-Therapie (die Abnehmspritze), Männergesundheit, präventivmedizinische Beratung und sportmedizinische Betreuung.",
+                  "Many health concerns can now be managed efficiently, discreetly and personally through telemedicine, including the discussion of test results, follow-up consultations, Nutritional Medicine, GLP-1 therapy for weight management, Men's Medicine, preventive health consultations and Sports Medicine.",
                 more: (
   <ul className="mt-2 list-disc space-y-3 pl-5">
     <li>
-      <strong>Bequem und flexibel:</strong> Wahrnehmung von Arztterminen bequem von zu Hause oder von unterwegs.
+      <strong>Convenient and flexible:</strong> attend appointments from the comfort of your home or while travelling.
     </li>
 
     <li>
-      <strong>Keine Wartezeiten:</strong> Effizientere Abläufe und optimiertes Zeitmanagement.
+      <strong>No waiting rooms:</strong> efficient scheduling and better use of your time.
     </li>
 
     <li>
-      <strong>Maximaler Komfort:</strong> Wegfall von Anfahrtswegen und Parkplatzsuche.
+      <strong>Maximum convenience:</strong> no travel time or parking concerns.
     </li>
 
     <li>
-      <strong>Infektionsschutz:</strong> Kein Kontakt zu anderen Patienten im Wartezimmer.
+      <strong>Reduced exposure to infections:</strong> no contact with other patients in waiting areas.
     </li>
 
     <li>
-      <strong>Mitbetreuung:</strong> Einfache Einbindung von Angehörigen in das Arztgespräch.
+      <strong>Family involvement:</strong> relatives or caregivers can easily participate in consultations when appropriate.
     </li>
   </ul>
 ),
@@ -319,7 +328,7 @@ export default function Home() {
         rel="noopener noreferrer"
         className="inline-flex rounded-full bg-[#5163A0] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#40518A]"
       >
-        Erfahren Sie mehr über Arthrosamid
+        Learn More About Arthrosamid®
       </a>
     </div>
   )}
@@ -329,11 +338,8 @@ export default function Home() {
 </div>
 
           <p className="mt-10 max-w-4xl text-base leading-8 text-[#66708A] md:text-lg">
-            Darüber hinaus bieten wir eine umfassende allgemeinmedizinische
-            Betreuung bei akuten und chronischen Erkrankungen sowie eine
-            psychosomatische Grundversorgung – stets mit dem Ziel, Ihre
-            Gesundheit langfristig zu erhalten und Ihr Wohlbefinden nachhaltig zu
-            fördern.
+            In addition, we offer comprehensive general medical care for acute and chronic health conditions, as well as 
+            psychosomatic medical support, with the aim of helping you maintain long-term health and lasting well-being.
           </p>
         </div>
       </section>
@@ -355,29 +361,29 @@ export default function Home() {
 
       <div>
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#5163A0]">
-          Über mich
+          About me
         </p>
 
         <h2 className="max-w-2xl text-2xl font-light leading-[1.3] tracking-[-0.01em] text-[#2D3A66] md:text-3xl">
-          Medizin mit Erfahrung und persönlicher Begleitung.
+          Medicine guided by experience and personalised care.
         </h2>
 
         <p className="mt-6 text-base leading-8 text-[#66708A]">
-          Hernán Leonardo Aceval Munoz, Studium der Humanmedizin und Psychologie an der Universität Bonn. Facharzt für Allgemeinmedizin, Notarzt, Flugarzt und Diplom-Psychologe.
+          Hernán Leonardo Aceval Munoz, I studied Medicine and Psychology at the University of Bonn and am a board-certified specialist in General Medicine, Emergency Physician, Aeromedical Physician and Psychologist.
           </p>
           <p className="mt-6 text-base leading-8 text-[#66708A]">
-          Nach vielen Jahren in der stationären chirurgischen Versorgung bin ich heute überwiegend in der ambulanten Allgemeinmedizin tätig. Parallel dazu arbeite ich weiterhin als 
-          Notarzt und Flugarzt im nationalen und internationalen Patiententransport und Versorgung, auch in Krisenregionen.
-          Besonders interessieren mich die Bereiche Ernährungsmedizin, Sportmedizin, Männergesundheit und Longevity. Als Arzt und Diplom-Psychologe betrachte ich dabei körperliche 
-          und psychische Gesundheit als untrennbar miteinander verbunden. Eine individuelle und persönliche Betreuung auf Augenhöhe steht für mich im Mittelpunkt jeder ärztlichen Behandlung.
+          After many years working in hospital-based surgical care, I now practise primarily in outpatient General Medicine. In parallel, I continue to work as an 
+          Emergency Physician and Aeromedical Physician, providing national and international patient transport and medical care, including assignments in crisis regions.
+          My particular areas of interest include Nutritional Medicine, Sports Medicine, Men's Medicine and Longevity Medicine. As both a physician and psychologist, 
+          I regard physical and mental health as inseparably linked. Individualised care, personal attention and a partnership-based doctor–patient relationship 
+          are at the heart of my medical practice.
         </p>
         <p className="mt-6 text-base leading-8 text-[#66708A]">
-          Die Entscheidung zur Gründung einer Privatpraxis habe ich bewusst getroffen. Sie ermöglicht mir die notwendige Unabhängigkeit, um Diagnostik, 
-          Therapie und Prävention ausschließlich an den Bedürfnissen meiner Patienten auszurichten. Ohne starre Vorgaben und ohne Zeitdruck kann ich 
-          mir die Zeit nehmen, die eine sorgfältige und moderne Medizin benötigt.
-          Ich behandle Privatpatienten ebenso wie gesetzlich Versicherte auf Selbstzahlerbasis. Dabei ist mir wichtig, dass der Zugang zu einer individuellen 
-          medizinischen Betreuung nicht allein vom Versicherungsstatus oder von finanziellen Überlegungen abhängt. 
-          Deshalb suche ich gemeinsam mit meinen Patienten nach sinnvollen und fairen Lösungen, die sowohl medizinisch als auch persönlich tragbar sind.
+          The decision to establish a private medical practice was a conscious one. It gives me the professional independence to focus diagnostics, treatment and preventive 
+          care entirely on the individual needs of my patients. Without rigid administrative constraints or unnecessary time pressure, I am able to devote the time that careful, 
+          modern medicine requires. I welcome both privately insured patients and self-paying patients. It is important to me that access to personalised medical care should not 
+          depend solely on insurance status or financial considerations. For this reason, I work together with my patients to find solutions that are both medically appropriate 
+          and individually sustainable.
         </p>
       </div>
 
@@ -388,17 +394,14 @@ export default function Home() {
   <div className="mx-auto max-w-6xl rounded-[1.5rem] border border-[#DCE3EE] bg-white p-8">
 
     <h3 className="text-sm font-semibold uppercase tracking-[0.3em] text-[#5163A0]">
-      Mitgliedschaften
+      PROFESSIONAL MEMBERSHIPS
     </h3>
 
     <p className="mt-4 text-base leading-8 text-[#66708A]">
-      Deutsche Gesellschaft für Allgemeinmedizin (DEGAM), Sportärztebund Nordrhein, Deutsche Gesellschaft für Ernährungsmedizin e.V. 
-
-      (DGEM), Deutsche Gesellschaft für Mann und Gesundheit e.V. (DGMG), Deutsche Gesellschaft für Geriatrie e.V. (DGG), 
-
-      Deutsche Gesellschaft für Katastrophenmedizin e.V. (DGKM), Deutsche Interdisziplinäre Vereinigung für Intensiv- und Notfallmedizin (DIVI), 
-
-      Deutsche Gesellschaft für Notfallmedizin e.V (DGINA), Berufsverband der Deutschen Chirurgie e.V. (BDC)
+      German College of General Practitioners and Family Physicians (DEGAM), Sports Physicians Association of North Rhine (Sportärztebund Nordrhein), 
+      German Society for Nutritional Medicine (DGEM), German Society for Men's Health (DGMG), German Geriatrics Society (DGG), 
+      German Society for Disaster Medicine (DGKM), German Interdisciplinary Association for Intensive Care and Emergency Medicine (DIVI), 
+      German Society for Emergency Medicine (DGINA), Professional Association of German Surgeons (BDC)
     </p>
 
   </div>
@@ -406,30 +409,31 @@ export default function Home() {
       <section id="kontakt" className="scroll-mt-28 px-6 pt-6 pb-16 md:px-12">
         <div className="mx-auto max-w-2xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
           <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
-            Kontakt
+            Contact
           </p>
 
           <h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
-            Termin oder telemedizinische Beratung anfragen.
+            Request an appointment or telemedicine consultation.
           </h2>
 
           <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-            Die Online-Terminbuchung wird in Kürze verfügbar sein. Bis dahin können Sie gerne eine Terminanfrage per E-Mail senden.
+            Online appointment booking will be available soon. In the meantime, you are welcome to request an appointment by email.
             </p>
             <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-              Präsenztermine sind derzeit mittwochs in den Räumlichkeiten der Praxis für Allgemeinmedizin O. Brenig in Bonn-Bad Godesberg möglich, 
-              insbesondere für Erstgespräche, Untersuchungen, Diagnostik und Laboruntersuchungen. Weitere Präsenztermine in Remagen werden in Kürze angeboten.
+              In-person appointments are currently available on Wednesdays at the premises of O. Brenig General Practice in Bonn-Bad Godesberg, 
+              particularly for initial consultations, physical examinations, diagnostic assessments and laboratory testing. 
+              Additional in-person appointments in Remagen will be available soon.
           </p>
           <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-            Bitte beachten Sie, dass Terminvereinbarungen für meine Privatpraxis ausschließlich über die hier angegebenen Kontaktmöglichkeiten erfolgen. Die Praxis 
-            O. Brenig ist eine eigenständige hausärztliche Praxis und kann keine Terminvereinbarungen oder Auskünfte zu meiner Sprechstunde übernehmen.
-            Ihre Anfrage wird zeitnah persönlich beantwortet.
+            Please note that appointments for my private practice can only be arranged through the contact details provided on this website. 
+            O. Brenig General Practice is an independent primary care practice and is unable to schedule appointments or provide 
+            information regarding my consultations. Your enquiry will be reviewed and answered personally as soon as possible.
           </p>
           <a
             href="mailto:termin-praxis@aceval.com"
             className="mt-10 inline-block rounded-full bg-white px-8 py-4 text-sm font-semibold text-[#5163A0] transition hover:bg-[#eef6fb]"
           >
-            Anfrage per E-Mail senden
+            Request an Appointment by Email
           </a>
         </div>
       </section>

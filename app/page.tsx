@@ -221,7 +221,7 @@ export default function Home() {
                   "Männlichkeit und Virilität sind für viele Männer wichtige Bestandteile von Lebensqualität, Leistungsfähigkeit und Wohlbefinden. Sie prägen nicht nur die sexuelle Gesundheit, sondern auch Selbstvertrauen, Ausstrahlung, Energie und die Art, wie Männer sich selbst erleben.",
                 more: (
   <>
-                  "Im Rahmen meiner Männersprechstunde begleite ich Männer in allen Lebensphasen bei den gesundheitlichen Herausforderungen des Mannseins. Dazu gehören unter anderem Testosteronmangel, Erektionsstörungen, nachlassende Libido, Prostatabeschwerden, Haarausfall sowie Fragen rund um gesundes Altern und Longevity. Als Arzt, Diplom-Psychologe und Sportler verbinde ich medizinische, hormonelle und psychologische Aspekte der Männergesundheit zu einem ganzheitlichen Konzept. Vertrauen, Diskretion und eine individuelle Betreuung bilden dabei die Grundlage meiner Arbeit.",
+                  Im Rahmen meiner Männersprechstunde begleite ich Männer in allen Lebensphasen bei den gesundheitlichen Herausforderungen des Mannseins. Dazu gehören unter anderem Testosteronmangel, Erektionsstörungen, nachlassende Libido, Prostatabeschwerden, Haarausfall sowie Fragen rund um gesundes Altern und Longevity. Als Arzt, Diplom-Psychologe und Sportler verbinde ich medizinische, hormonelle und psychologische Aspekte der Männergesundheit zu einem ganzheitlichen Konzept. Vertrauen, Diskretion und eine individuelle Betreuung bilden dabei die Grundlage meiner Arbeit.
              <img
       src="/rugby.jpg"
       alt="Männergesundheit"
@@ -238,7 +238,7 @@ export default function Home() {
                   "Es ist nie zu früh – und nie zu spät –, sich mit Longevity zu beschäftigen. Für mich bedeutet Longevity einen ganzheitlichen medizinischen Ansatz mit dem Ziel, nicht nur die Lebensspanne zu verlängern, sondern vor allem die Zeit körperlicher und geistiger Gesundheit („Healthspan“) möglichst lange zu erhalten.",
                 more:(
   <>
-                  "Der Begriff „Longevity“ wird heute oft von Coaches, Medfluencern und selbsternannten Experten geprägt, die komplexe medizinische Themen ohne ausreichende Expertise vereinfachen oder falsch darstellen – eine Entwicklung, die ich gerade im Gesundheitsbereich für problematisch halte. Mein Ansatz grenzt sich davon bewusst ab: evidenzbasiert, medizinisch fundiert und auf seriöse Diagnostik statt auf Trends, Marketing oder Internet-Hypes aufgebaut.",
+                  Der Begriff „Longevity“ wird heute oft von Coaches, Medfluencern und selbsternannten Experten geprägt, die komplexe medizinische Themen ohne ausreichende Expertise vereinfachen oder falsch darstellen – eine Entwicklung, die ich gerade im Gesundheitsbereich für problematisch halte. Mein Ansatz grenzt sich davon bewusst ab: evidenzbasiert, medizinisch fundiert und auf seriöse Diagnostik statt auf Trends, Marketing oder Internet-Hypes aufgebaut.
              <img
       src="/aging.jpg"
       alt="Longevity"
