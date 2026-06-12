@@ -12,11 +12,11 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 py-4 md:px-12">
     <div className="mb-0 hidden justify-end md:flex">
       <div className="flex items-center gap-2">
-        <a href="/">
-          <img src="/de.jpg" alt="Deutsch" className="h-4 w-auto hover:opacity-80 transition" />
-        </a>
         <a href="/es">
           <img src="/es.jpg" alt="Español" className="h-4 w-auto hover:opacity-80 transition" />
+        </a>
+        <a href="/">
+          <img src="/de.jpg" alt="Deutsch" className="h-4 w-auto hover:opacity-80 transition" />
         </a>
         <a href="/en">
           <img src="/en.jpg" alt="English" className="h-4 w-auto hover:opacity-80 transition" />

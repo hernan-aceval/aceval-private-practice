@@ -12,14 +12,14 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 py-4 md:px-12">
     <div className="mb-0 hidden justify-end md:flex">
       <div className="flex items-center gap-2">
+        <a href="/en">
+          <img src="/en.jpg" alt="English" className="h-4 w-auto hover:opacity-80 transition" />
+        </a>
         <a href="/">
           <img src="/de.jpg" alt="Deutsch" className="h-4 w-auto hover:opacity-80 transition" />
         </a>
         <a href="/es">
           <img src="/es.jpg" alt="Español" className="h-4 w-auto hover:opacity-80 transition" />
-        </a>
-        <a href="/en">
-          <img src="/en.jpg" alt="English" className="h-4 w-auto hover:opacity-80 transition" />
         </a>
       </div>
     </div>
@@ -31,7 +31,7 @@ export default function Home() {
     className="h-24 w-auto object-contain md:h-36"
   />
 </div>
-          <nav className="hidden items-center gap-5 text-lg font-medium text-[#5163A0] md:flex">
+          <nav className="hidden flex-1 items-center justify-between text-lg font-medium text-[#5163A0] md:flex">
             <a href="#">Home</a>
 <a href="#schwerpunkte"
   className="relative transition-all duration-300 hover:text-[#2D3A66] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-[#5163A0] after:transition-all after:duration-300 hover:after:w-full"

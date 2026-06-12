@@ -199,16 +199,25 @@ export default function Home() {
                   "Bewegung ist ein wichtiger Bestandteil eines gesunden und aktiven Lebens – unabhängig von Alter oder Leistungsniveau. Ich begleite Leistungs- und Freizeitsportler ebenso wie Menschen, die ihre Beweglichkeit, Belastbarkeit und Lebensqualität im Alltag oder im höheren Alter erhalten möchten.",
                 more: (
   <>
-    Ein besonderer Schwerpunkt meiner Praxis ist die Diagnostik und Behandlung von Beschwerden des Bewegungsapparates sowie der Arthrose – insbesondere der Gonarthrose. Ein wichtiger Bestandteil dieses Therapiekonzeptes ist dabei die moderne{" "}
+    Ein besonderer Schwerpunkt meiner Praxis ist die Diagnostik und Behandlung von Beschwerden des Bewegungsapparates sowie der Arthrose, insbesondere der Kniearthrose. Ein wichtiger Bestandteil dieses Therapiekonzeptes ist{" "}
     <a
       href="https://arthrosamid.com/de/our-solution"
       target="_blank"
       rel="noopener noreferrer"
       className="font-semibold text-[#5163A0] underline"
     >
-      Arthrosamid
+      Arthrosamid®
     </a>
-    -Behandlung bei Kniearthrose.
+    , eine moderne, nicht-operative Behandlungsmöglichkeit bei Kniearthrose. 
+    {" "}
+    <a
+      href="https://arthrosamid.com/de/our-solution"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-semibold text-[#5163A0] underline"
+    >
+      Arthrosamid®
+    </a> wird durch mehr als zwei Jahrzehnte wissenschaftlicher Forschung unterstützt und hat sich als sicher und wirksam erwiesen. Die Behandlung kann zu einer langanhaltenden Schmerzlinderung beitragen und dabei helfen, Beweglichkeit und Lebensqualität zu erhalten.
   </>
 ),
 },
