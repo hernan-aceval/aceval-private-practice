@@ -403,7 +403,7 @@ export default function Home() {
     <p className="mt-4 text-base leading-8 text-[#66708A]">
       Deutsche Gesellschaft für Allgemeinmedizin (DEGAM), Sportärztebund Nordrhein, Deutsche Gesellschaft für Ernährungsmedizin e.V. 
 
-      (DGEM), Deutsche Gesellschaft für Mann und Gesundheit e.V. (DGMG), Deutsche Gesellschaft für Geriatrie e.V. (DGG), 
+      (DGEM), Bundesverband konservative Orthopädie e.V. (BKO), Deutsche Gesellschaft für Mann und Gesundheit e.V. (DGMG), Deutsche Gesellschaft für Geriatrie e.V. (DGG), 
 
       Deutsche Gesellschaft für Katastrophenmedizin e.V. (DGKM), Deutsche Interdisziplinäre Vereinigung für Intensiv- und Notfallmedizin (DIVI), 
 

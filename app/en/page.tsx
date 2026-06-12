@@ -399,7 +399,7 @@ export default function Home() {
 
     <p className="mt-4 text-base leading-8 text-[#66708A]">
       German College of General Practitioners and Family Physicians (DEGAM), Sports Physicians Association of North Rhine (Sportärztebund Nordrhein), 
-      German Society for Nutritional Medicine (DGEM), German Society for Men's Health (DGMG), German Geriatrics Society (DGG), 
+      German Society for Nutritional Medicine (DGEM), German Association for Conservative Orthopaedics (BKO), German Society for Men's Health (DGMG), German Geriatrics Society (DGG), 
       German Society for Disaster Medicine (DGKM), German Interdisciplinary Association for Intensive Care and Emergency Medicine (DIVI), 
       German Society for Emergency Medicine (DGINA), Professional Association of German Surgeons (BDC)
     </p>
