@@ -6,6 +6,11 @@ const nextConfig: NextConfig = {
       {
   source: "/:path*",
   headers: [
+    {
+  key: "Content-Security-Policy",
+  value:
+    "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests",
+},
           {
             key: "X-Frame-Options",
             value: "SAMEORIGIN",
