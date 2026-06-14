@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)",
-        headers: [
+  source: "/:path*",
+  headers: [
           {
             key: "X-Frame-Options",
             value: "SAMEORIGIN",
