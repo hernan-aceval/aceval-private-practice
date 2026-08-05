@@ -1,4 +1,5 @@
 "use client";
+import ContactForm from "../../components/ContactForm";
 export default function Home() {
     function closeMobileMenu(event: React.MouseEvent<HTMLAnchorElement>) {
     const details = event.currentTarget.closest("details");
@@ -408,35 +409,31 @@ export default function Home() {
 </section>
       <section id="kontakt" className="scroll-mt-28 px-6 pt-6 pb-16 md:px-12">
         <div className="mx-auto max-w-2xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
-          <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
-            Contact
-          </p>
+         <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
+  Contact
+</p>
 
-          <h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
-            Request an appointment or telemedicine consultation.
-          </h2>
+<h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
+  Request an appointment or a telemedicine consultation.
+</h2>
 
-          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-            Online appointment booking will be available soon. In the meantime, you are welcome to request an appointment by email.
-            </p>
-            <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-              In-person appointments are currently available on Wednesdays at the premises of O. Brenig General Practice in Bonn-Bad Godesberg, 
-              particularly for initial consultations, physical examinations, diagnostic assessments and laboratory testing. 
-              Additional in-person appointments in Remagen will be available soon.
-          </p>
-          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-            Please note that appointments for my private practice can only be arranged through the contact details provided on this website. 
-            O. Brenig General Practice is an independent primary care practice and is unable to schedule appointments or provide 
-            information regarding my consultations. Your enquiry will be reviewed and answered personally as soon as possible.
-          </p>
-          <a
-            href="mailto:termin-praxis@aceval.com"
-            className="mt-10 inline-block rounded-full bg-white px-8 py-4 text-sm font-semibold text-[#5163A0] transition hover:bg-[#eef6fb]"
-          >
-            Request an Appointment by Email
-          </a>
+<p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
+  Please use this form exclusively for organisational enquiries or appointment requests.
+</p>
+
+<div className="mt-6 rounded-2xl bg-white/95 p-5 text-[#2D3A66]">
+  <p className="font-semibold text-red-700">
+    Please do not submit medical reports, diagnoses or other confidential health information.
+  </p>
+
+  <p className="mt-2 text-sm leading-6">
+    Medical concerns will only be discussed during a video consultation or an in-person appointment.
+  </p>
+</div>
+      
+          <ContactForm language="en" />
         </div>
       </section>
-    </main>
-  );
-}
+          </main>
+        );
+      }

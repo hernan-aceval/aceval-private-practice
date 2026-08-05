@@ -1,4 +1,6 @@
 "use client";
+import React from "react";
+import ContactForm from "../components/ContactForm";
 export default function Home() {
     function closeMobileMenu(event: React.MouseEvent<HTMLAnchorElement>) {
     const details = event.currentTarget.closest("details");
@@ -413,35 +415,35 @@ export default function Home() {
   </div>
 </section>
       <section id="kontakt" className="scroll-mt-28 px-6 pt-6 pb-16 md:px-12">
-        <div className="mx-auto max-w-2xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
-          <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
-            Kontakt
-          </p>
+  <div className="mx-auto max-w-2xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
+    <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
+      Kontakt
+    </p>
 
-          <h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
-            Termin oder telemedizinische Beratung anfragen.
-          </h2>
+    <h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
+      Termin oder telemedizinische Beratung anfragen.
+    </h2>
 
-          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-            Die Online-Terminbuchung wird in Kürze verfügbar sein. Bis dahin können Sie gerne eine Terminanfrage per E-Mail senden.
-            </p>
-            <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-              Präsenztermine sind derzeit mittwochs in den Räumlichkeiten der Praxis für Allgemeinmedizin O. Brenig in Bonn-Bad Godesberg möglich, 
-              insbesondere für Erstgespräche, Untersuchungen, Diagnostik und Laboruntersuchungen. Weitere Präsenztermine in Remagen werden in Kürze angeboten.
-          </p>
-          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-            Bitte beachten Sie, dass Terminvereinbarungen für meine Privatpraxis ausschließlich über die hier angegebenen Kontaktmöglichkeiten erfolgen. Die Praxis 
-            O. Brenig ist eine eigenständige hausärztliche Praxis und kann keine Terminvereinbarungen oder Auskünfte zu meiner Sprechstunde übernehmen.
-            Ihre Anfrage wird zeitnah persönlich beantwortet.
-          </p>
-          <a
-            href="mailto:termin-praxis@aceval.com"
-            className="mt-10 inline-block rounded-full bg-white px-8 py-4 text-sm font-semibold text-[#5163A0] transition hover:bg-[#eef6fb]"
-          >
-            Anfrage per E-Mail senden
-          </a>
-        </div>
-      </section>
+    <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
+      Bitte verwenden Sie dieses Formular ausschließlich für organisatorische
+      Anfragen oder Terminwünsche.
+    </p>
+
+    <div className="mt-6 rounded-2xl bg-white/95 p-5 text-[#2D3A66]">
+      <p className="font-semibold text-red-700">
+        Bitte übermitteln Sie keine medizinischen Befunde, Diagnosen oder
+        sonstigen vertraulichen Gesundheitsdaten.
+      </p>
+
+      <p className="mt-2 text-sm leading-6">
+        Medizinische Anliegen besprechen wir ausschließlich im Rahmen einer
+        Videosprechstunde oder eines persönlichen Arzttermins.
+      </p>
+    </div>
+
+    <ContactForm language="de" />
+  </div>
+</section>
     </main>
   );
 }

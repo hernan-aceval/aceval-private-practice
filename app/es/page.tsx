@@ -1,4 +1,6 @@
 "use client";
+import ContactForm from "../../components/ContactForm";
+
 export default function Home() {
     function closeMobileMenu(event: React.MouseEvent<HTMLAnchorElement>) {
     const details = event.currentTarget.closest("details");
@@ -405,35 +407,33 @@ export default function Home() {
 
   </div>
 </section>
-     <section id="kontakt" className="scroll-mt-28 px-6 pt-6 pb-16 md:px-12">
-        <div className="mx-auto max-w-2xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
-          <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
-            CONTACTO
-          </p>
-          <h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
-            Solicita una cita o una consulta de telemedicina.
-          </h2>
-          <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-            La reserva de citas online estará disponible próximamente. Hasta entonces, puede enviar su solicitud de cita por correo electrónico.
-            </p>
-            <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
-              Actualmente, las consultas presenciales pueden realizarse los miércoles en las instalaciones de la consulta de Medicina General del Dr. O. Brenig, en Bonn-Bad Godesberg, Alemania, 
-              especialmente para primeras consultas, exploraciones médicas, procedimientos diagnósticos y análisis de laboratorio. 
-              Próximamente también se ofrecerán consultas presenciales en la ciudad de Remagen, Alemania y en el futuro no muy lejano, también 
-              en la ciudad de Gijón, Asturias, España.
-            Tenga en cuenta que las citas para mi consulta privada se gestionan exclusivamente a través de los medios de contacto indicados en esta página. 
-            La consulta del Dr. O. Brenig es una consulta médica independiente y no puede gestionar citas ni proporcionar información relacionada 
-            con mi actividad asistencial.
-         Su solicitud será atendida personalmente a la mayor brevedad posible.
-          </p>
-          <a
-            href="mailto:termin-praxis@aceval.com"
-            className="mt-10 inline-block rounded-full bg-white px-8 py-4 text-sm font-semibold text-[#5163A0] transition hover:bg-[#eef6fb]"
-          >
-            Enviar solicitud por correo electrónico
-          </a>
-        </div>
-      </section>
-    </main>
-  );
-}
+    <section id="kontakt" className="scroll-mt-28 px-6 pt-6 pb-16 md:px-12">
+  <div className="mx-auto max-w-2xl rounded-[2rem] bg-[#5E74B7] p-8 text-white shadow-[0_20px_60px_rgba(36,52,77,0.15)]">
+    <p className="mb-5 text-sm uppercase tracking-[0.3em] text-[#eaf3fb]">
+      Contacto
+    </p>
+
+    <h2 className="max-w-xl text-2xl font-light leading-[1.3] tracking-[-0.01em]">
+      Solicitar una cita o una consulta por telemedicina.
+    </h2>
+
+    <p className="mt-6 max-w-xl text-base leading-8 text-[#eef6fb]">
+      Utilice este formulario exclusivamente para consultas organizativas o solicitudes de cita.
+    </p>
+
+    <div className="mt-6 rounded-2xl bg-white/95 p-5 text-[#2D3A66]">
+      <p className="font-semibold text-red-700">
+        No envíe informes médicos, diagnósticos ni otros datos de salud confidenciales.
+      </p>
+
+      <p className="mt-2 text-sm leading-6">
+        Los asuntos médicos se tratarán exclusivamente durante una videoconsulta o una consulta presencial.
+      </p>
+    </div>
+     
+         <ContactForm language="es" />
+       </div>
+     </section>
+         </main>
+       );
+     }
