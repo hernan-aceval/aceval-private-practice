@@ -193,7 +193,7 @@ export default async function ArticlePage({
             </section>
           )}
 
-          <aside className="rounded-[2rem] bg-[#2D3A66] p-7 text-white md:p-9">
+          <aside className="rounded-[2rem] bg-[#6278B8] p-7 text-white md:p-9">
             <h2 className="text-xl font-semibold">
               Medizinischer Hinweis
             </h2>
