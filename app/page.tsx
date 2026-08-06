@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import ContactForm from "../components/ContactForm";
+import Link from "next/link";
 export default function Home() {
     function closeMobileMenu(event: React.MouseEvent<HTMLAnchorElement>) {
     const details = event.currentTarget.closest("details");
@@ -129,6 +130,12 @@ export default function Home() {
   >
     Termin anfragen
   </a>
+  <Link
+  href="/aktuelles/intervallfasten-und-glp-1"
+  className="rounded-full border border-[#5163A0]/30 bg-white px-7 py-3.5 text-center text-sm font-semibold text-[#5163A0] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#5163A0] hover:shadow-md"
+>
+  Aktuelles
+</Link>
 </div>
           </div>
 
