@@ -130,7 +130,7 @@ export default function Home() {
     Solicita una cita
   </a>
   <Link
-  href="/es/actualidad/neu"
+  href="/es/actualidad/ayuno-intermitente-y-glp-1"
   className="rounded-full border border-[#5163A0]/30 bg-white px-7 py-3.5 text-center text-sm font-semibold text-[#5163A0] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#5163A0] hover:shadow-md"
 >
   Actualidad
