@@ -62,22 +62,22 @@ highlight:
     "La pregunta decisiva no es: ¿cuánto tiempo puedo ayunar? Lo más importante es: ¿continúa recibiendo mi organismo suficientes proteínas, vitaminas y minerales a pesar de la pérdida de peso?",
 },
       {
-        heading: "Al perder peso debemos perder grasa, no masa muscular",
+  heading: "Al perder peso debemos perder grasa, no masa muscular",
 
-        paragraphs: [
-          "El objetivo de una pérdida de peso saludable no consiste únicamente en conseguir que la báscula marque una cifra más baja. El objetivo principal es reducir la grasa corporal y conservar al máximo la masa muscular.",,
+  paragraphs: [
+    "El objetivo de una pérdida de peso saludable no consiste únicamente en conseguir que la báscula marque una cifra más baja. El objetivo principal es reducir la grasa corporal y conservar al máximo la masa muscular.",
 
-          "Durante un tratamiento con GLP-1, muchos pacientes comen considerablemente menos que antes. Si además se añaden periodos de ayuno muy prolongados, puede resultar más difícil ingerir cantidades suficientes de proteínas y otros nutrientes esenciales.",
+    "Durante un tratamiento con GLP-1, muchos pacientes comen considerablemente menos que antes. Si además se añaden periodos de ayuno muy prolongados, puede resultar más difícil ingerir cantidades suficientes de proteínas y otros nutrientes esenciales.",
 
-          "La masa muscular desempeña un papel fundamental en el metabolismo, el rendimiento físico y el mantenimiento del peso a largo plazo.",
-],
+    "La masa muscular desempeña un papel fundamental en el metabolismo, el rendimiento físico y el mantenimiento del peso a largo plazo.",
+  ],
 
-        list: [
-"ingerir una cantidad suficiente de proteínas",
-"mantener una actividad física regular",
-"realizar, siempre que sea posible, entrenamiento de fuerza dos o tres veces por semana",
-],
-      },
+  list: [
+    "ingerir una cantidad suficiente de proteínas",
+    "mantener una actividad física regular",
+    "realizar, siempre que sea posible, entrenamiento de fuerza dos o tres veces por semana",
+  ],
+},
 
       {
         heading: "Lo que recomiendo a mis pacientes",
