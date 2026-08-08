@@ -205,7 +205,7 @@ export default async function ArticlePage({
             </p>
 
             <Link
-              href="/#kontakt"
+              href="/es#kontakt"
               className="mt-6 inline-flex rounded-full bg-white px-6 py-3 text-sm font-semibold text-[#2D3A66]"
             >
               Solicitar cita
