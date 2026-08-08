@@ -130,7 +130,7 @@ export default function Home() {
     Request an Appointment
   </a>
   <Link
-  href="/en/news/latest"
+  href="/en/news/intermittent-fasting-and-glp-1"
   className="rounded-full border border-[#5163A0]/30 bg-white px-7 py-3.5 text-center text-sm font-semibold text-[#5163A0] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#5163A0] hover:shadow-md"
 >
   News
