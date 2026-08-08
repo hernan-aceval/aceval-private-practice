@@ -30,7 +30,7 @@ export const articles: Article[] = [
     shortTitle: "Intervallfasten und GLP-1-Therapie",
 
     description:
-      "Kann eine GLP-1-Therapie dabei helfen, Intervallfasten besser durchzuhalten? Und ist die Kombination beider Methoden überhaupt sinnvoll?",
+      "Kann eine GLP-1-Therapie (Ozempic, Mounjaro & Wegovy) dabei helfen, Intervallfasten besser durchzuhalten? Und ist die Kombination beider Methoden überhaupt sinnvoll?",
 
     date: "2026-08-06",
 
@@ -51,7 +51,7 @@ export const articles: Article[] = [
         heading: "Wie wirken GLP-1-Medikamente überhaupt?",
 
         paragraphs: [
-          "Viele Menschen glauben, dass GLP-1-Medikamente den Stoffwechsel beschleunigen oder Fett direkt verbrennen. Das ist jedoch nicht der Fall.",
+          "Viele Menschen glauben, dass GLP-1-Medikamente (Ozempic, Mounjaro & Wegovy) den Stoffwechsel beschleunigen oder Fett direkt verbrennen. Das ist jedoch nicht der Fall.",
 
           "Diese Medikamente unterstützen den Körper dabei, Hunger und Sättigung besser zu regulieren. Viele Patienten berichten schon nach kurzer Zeit, dass sie weniger Hunger verspüren, schneller satt werden und kleinere Portionen essen.",
 

@@ -28,7 +28,7 @@ export const articles: Article[] = [
     shortTitle: "Ayuno intermitente y GLP-1 Therapie",
 
     description:
-      "¿Puede un tratamiento con GLP-1 ayudar a mantener mejor el ayuno intermitente? ¿Y tiene realmente sentido combinar ambos métodos?",
+      "¿Puede un tratamiento con GLP-1 (Ozempic, Mounjaro y Wegovy) ayudar a mantener mejor el ayuno intermitente? ¿Y tiene realmente sentido combinar ambos métodos?",
 
     date: "2026-08-06",
 
@@ -39,7 +39,7 @@ export const articles: Article[] = [
     category: "Medicina nutricional",
 
     patientQuestion:
-      "Doctor, ya he intentado varias veces perder peso con el ayuno intermitente. Al principio me va bastante bien, pero después de unas semanas ya no consigo mantenerlo. Por eso estoy pensando en empezar un tratamiento con las llamadas inyecciones para adelgazar. ¿Cree que con este tratamiento me resultaría más fácil mantener el ayuno intermitente? ¿Tendría sentido combinar ambos métodos?",
+      "Doctor, ya he intentado varias veces perder peso con el ayuno intermitente. Al principio me va bastante bien, pero después de unas semanas ya no consigo mantenerlo. Por eso estoy pensando en empezar un tratamiento con una inyección para adelgazar. ¿Cree que con este tratamiento me resultaría más fácil mantener el ayuno intermitente? ¿Tiene sentido combinar ambos métodos?",
 
     introduction:
       "Esta es una pregunta que escucho cada vez con mayor frecuencia en mi consulta. Es perfectamente comprensible: tanto el ayuno intermitente como los modernos agonistas de los receptores de GLP-1, como la semaglutida o la tirzepatida, pueden ayudar a reducir el peso. Por ello, resulta lógico pensar que la combinación de ambos métodos podría ser especialmente eficaz. Sin embargo, la respuesta no es tan sencilla.",
@@ -47,7 +47,7 @@ export const articles: Article[] = [
       {
         heading: "¿Cómo actúan realmente los medicamentos GLP-1?",
 
-        paragraphs: [ "Muchas personas creen que los medicamentos GLP-1 aceleran el metabolismo o queman directamente la grasa. Sin embargo, no es así.", 
+        paragraphs: [ "Muchas personas creen que los medicamentos GLP-1 (Ozempic, Mounjaro y Wegovy) aceleran el metabolismo o queman directamente la grasa. Sin embargo, no es así.", 
             "Estos medicamentos ayudan al organismo a regular mejor el hambre y la sensación de saciedad. Muchos pacientes refieren, ya al poco tiempo de iniciar el tratamiento, que sienten menos hambre, se sacian antes y comen porciones más pequeñas.", 
             "Como consecuencia, la ingesta energética suele disminuir de forma prácticamente automática. Por este motivo, durante un tratamiento con GLP-1 no solo es importante cuánto se come, sino, sobre todo, qué se come.", ],
       },
