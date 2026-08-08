@@ -79,7 +79,7 @@ export default function AktuellesPage() {
                 </span>
 
                 <Link
-                  href={`/aktuelles/${article.slug}`}
+                  href={`/es/actualidad/${article.slug}`}
                   className="font-semibold text-[#5163A0] transition group-hover:translate-x-1"
                 >
                   Leer artículo →
